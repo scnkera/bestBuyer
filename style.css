@@ -1,0 +1,254 @@
+/* 115, 92 */
+.container-fluid{
+    min-width: 1189px;
+    /* overflow-x: scroll; */
+}
+
+.bold{
+    font-weight: 700;
+}
+#navBar {
+    background-color: #013196;
+    height: 42px;
+    overflow-x: scroll;
+    /* padding-left: 15px; */
+}
+
+#navPageSections span{
+    padding: 10px;
+    color: #d3d3d3;
+    font-size: 12px;
+}
+
+#navPageSections span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#stickyNavBar{
+    background-color: #0047AB;
+    color: white;
+    height: 72px;
+    padding: 5px;
+    border-bottom: 0.5px solid rgb(135, 183, 213);
+    font-size: 18px;
+}
+
+#bestBuyerLogo{
+    width: 70px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+#navSearchBar{
+    background-color: white;
+    color: gray;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 5px 0px 5px 10px;
+    height: 40px;
+}
+
+#searchBarIcon{
+    color: black;
+    font-size: 20px;
+    padding-right: 10px;
+
+}
+
+.hoverUnderline:hover{
+    text-decoration: underline;
+
+}
+#accountInfoNavBar{
+    background-color: #0047AB;
+    color: white;
+    color: #d3d3d3;
+    font-size: 12px;
+    height: 45px;
+
+}
+
+#accountInfoNavBar span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#leftAccountInfoNavBar{
+    padding-left: 23px; 
+}
+#rightAccountInfoNavBar{
+    color: white;
+}
+
+.smallDownArrow{
+    font-size: 8px;
+}
+
+/* Main content */
+
+#mainContent{
+    width: 100vw;
+}
+#mainContent div {
+    /* border: 2px solid darkgray; */
+    color: black;
+}
+/* 
+#objectOne{
+    object-fit: fill;
+} */
+
+#leftHeroImage2 {
+    padding-top: 15px;
+}
+#leftHeroImage{
+    background-image: url("static/headPhones.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 660px;
+}
+
+#leftHeroImage, #rightHeroImage{
+    margin-top: 20px;
+    height: 660px;
+}
+
+#rightHeroImage{
+    padding-left: 20px;
+}
+#todaysTopPicksSection{
+    border: 1px solid darkgrey;
+    padding-left: 20px;
+}
+
+#todaysTopPicksTitle{
+    height: 40px;
+    padding-left: 10px;
+}
+#todaysTopPicksImg{
+    height: 170px;
+    padding-top: 10px;
+}
+
+#topPicksImg1{
+    background-image: url("static/airPods.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#topPicksImg2{
+    background-image: url("static/airPods.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#topPicksImg3{
+    background-image: url("static/airPods.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#topPicksImg3{
+    background-image: url("static/airPods.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#todaysTopPicksImg div div{
+    border: 2px solid black;
+    height: 70%;
+    text-align: center;
+}
+
+.topPicksDescription {
+    color: #3b60c8;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.topPicksDescription:hover {
+    text-decoration: underline;
+    color: #033984;
+    cursor: pointer;
+}
+
+#mainContent{
+    min-width: 1189px;
+}
+
+#mainFeatures{
+    padding-left: 30px;
+}
+
+#bottomRow{
+    margin-top: 20px;
+    /* border: 1px solid darkgrey; */
+    height: 420px;
+    padding: 0px 11px 11px 11px;
+}
+
+#outletDeals, #topDeals{
+    border: 1px solid darkgrey;
+    padding-top: 20px;
+}
+
+
+#clearanceBoxSection{
+    padding: 48px 50px;
+}
+
+.yellowText{
+    color: yellow;
+}
+
+.blueBackground{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+
+}
+
+#clearanceBoxSection{
+    font-size: 55px;
+}
+
+.redText{
+    color: rgb(205, 34, 34);
+}
+
+.redBackground{
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+
+#topDealsImageContainer{
+    height: 225px;
+    padding-top: 20px;
+    margin: 0 10px;
+}
+#topDealsImage{
+    background-image: url("static/flatTV.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 225;
+    width: 475px;
+}
+
+#topDealsImageDescription{
+    padding-top: 20px;
+}
+
+.crossOut{
+    text-decoration: line-through;
+}
+/* 
+#leftHeroImage, #rightHeroImage{
+    border: 2px solid darkgray;
+} */
