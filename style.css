@@ -92,24 +92,19 @@
     /* border: 2px solid darkgray; */
     color: black;
 }
-/* 
-#objectOne{
-    object-fit: fill;
-} */
 
-#leftHeroImage2 {
-    padding-top: 15px;
-}
 #leftHeroImage{
     background-image: url("static/headPhones.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border: 1px solid darkgrey;
 }
 
 #leftHeroImage, #rightHeroImage{
     margin-top: 20px;
-    height: 660px;
+    height: 810px;
+    /* border-bottom: 5px solid black; */
 }
 
 #rightHeroImage{
@@ -125,8 +120,9 @@
     padding-left: 10px;
 }
 #todaysTopPicksImg{
-    height: 170px;
-    padding-top: 10px;
+    height: 230px;
+    padding: 20px 0;
+    /* margin-top: 10px; */
 }
 
 #topPicksImg1{
@@ -166,7 +162,7 @@
 .topPicksDescription {
     color: #3b60c8;
     font-size: 12px;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .topPicksDescription:hover {
@@ -184,7 +180,7 @@
 #bottomRow{
     margin-top: 20px;
     /* border: 1px solid darkgrey; */
-    height: 420px;
+    height: 530px;
     padding: 0px 11px 11px 11px;
 }
 
@@ -195,7 +191,7 @@
 
 
 #clearanceBoxSection{
-    padding: 48px 50px;
+    padding: 78px 50px;
 }
 
 .yellowText{
@@ -239,6 +235,7 @@
 }
 
 #topDealsImageDescription{
+    padding-bottom: 10px;
     padding-top: 20px;
 }
 
