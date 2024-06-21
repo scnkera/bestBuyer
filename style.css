@@ -1,6 +1,6 @@
 /* 115, 92 */
 .container-fluid{
-    min-width: 1189px;
+    min-width: 1385px;
     /* overflow-x: scroll; */
 }
 
@@ -88,9 +88,6 @@
 
 /* Main content */
 
-#mainContent{
-    width: 100vw;
-}
 #mainContent div {
     /* border: 2px solid darkgray; */
     color: black;
@@ -108,7 +105,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 660px;
 }
 
 #leftHeroImage, #rightHeroImage{
@@ -134,34 +130,37 @@
 }
 
 #topPicksImg1{
-    background-image: url("static/airPods.jpeg");
+    background-image: url("./static/airPods.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #topPicksImg2{
-    background-image: url("static/airPods.jpeg");
+    background-image: url("./static/macbook.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #topPicksImg3{
-    background-image: url("static/airPods.jpeg");
+    background-image: url("./static/playstationRemote.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #topPicksImg4{
-    background-image: url("static/airPods.jpeg");
+    background-image: url("./static/ouraRing.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-#todaysTopPicksImg div div{
-    border: 2px solid black;
+#topPicksImg1,
+#topPicksImg2,
+#topPicksImg3,
+#topPicksImg4
+{
+    /* border: 2px solid black; */
     height: 70%;
-    text-align: center;
 }
 
 .topPicksDescription {
@@ -176,9 +175,7 @@
     cursor: pointer;
 }
 
-#mainContent{
-    min-width: 1189px;
-}
+
 
 #mainFeatures{
     padding-left: 30px;
@@ -252,3 +249,17 @@
 #leftHeroImage, #rightHeroImage{
     border: 2px solid darkgray;
 } */
+
+#mostViewedSection{
+    #mostViewedText{
+        padding: 25px 17px;
+        /* padding-right: 50px; */
+        p{
+            border-bottom: 5px solid black;
+            padding-bottom: 10px;
+    
+        }
+    
+    }
+}
+
